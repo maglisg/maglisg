@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(233, 241, 233);
+    margin: 10px 10% ;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 { 
+    color: #79b7a3;
+    font-family: Lucida Handwriting;
+    font-size: 50px ;
+    text-align: center;
+    letter-spacing: 10px;
+    width: auto;
+    border: 15px outset #bcddd4;
+    padding: 10px;
+    margin: auto
+
+}
+img{  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p {
+    font-family: Monaco;
+    font-size: x-large;
+    text-align: center;
+    color: grey;
+    font-style: italic
+}
+ul{
+    list-style-type:circle
+}
+a{
+    color: black;
+    font-family: 'Lucida Sans';
+}
+h2{
+    color: black;
+    letter-spacing: 10px;
+background-color: #bcddd4
+}
+table, th, td{
+    border-style: double;
+    border-collapse: collapse;
+    width: auro;
+    
+}
+th, td{
+    height: 70px;
+    width: 1000px;
+    text-align: center;
+}
+ul#habilidades {
+    background-color: rgb(24, 117, 86);
+    color: rgb(36, 102, 69);
+    text-size-adjust:inherit;
+    padding-top: 5px;
+    padding: 5%;
+}
+ul#habilidades>li{
+    padding: 20px;
+    background-color: white;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+  }
+
+  label{
+     font-size: 200%;
+     font-family: Monaco;
+     margin: 30px 10px 30px 10px;
+     color: black;
+     letter-spacing: 10px;
+     background-color: #bcddd4 
+
+  }
+
+  select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+  }
+
+  option{
+    font-style: black;
+    font-family: 'Lucida Sans';
+    font-size: large;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"]{
+    background-color: #bcddd4;
+    font-size: 16px;
+    width: 250px;
+
+  }
+
